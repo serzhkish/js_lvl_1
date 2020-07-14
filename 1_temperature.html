@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Convert temperature</title>
+</head>
+
+<body>
+    <script>
+        'use strict';
+        
+        let t_cel = +prompt("Введите температуру в градусах по Цельсию:");
+        
+        if(isNaN(t_cel)){
+            alert("Введено не число! Преобразование невозможно!");
+         }else{
+            alert(t_cel + " по Цельсию равно " + ((9/5)*t_cel + 32) + " по Фаренгейту");
+         }
+    </script>
+</body>
+
+</html>
