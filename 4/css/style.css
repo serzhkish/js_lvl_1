@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.div_wrp {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  padding: 10px;;
+}
+
+.title {
+  display: block;
+  margin: 5px 0 5px 0;
+}
+
+.image {
+  margin: 0 0 10px 0;
+}
+
+.desc {
+  margin: 0 0 10px 0;
+}
