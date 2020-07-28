@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  min-height: 450px;
+}
+
+.cell {
+  width: 50px;
+  min-height: 50px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.cell_head {
+  width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+}

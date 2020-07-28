@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  min-height: 450px;
+}
+
+.cell {
+  width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid;   
+}
+
+.cell_head {
+  width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.figure_black {
+  width: 25px;
+  min-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.figure_white {
+  width: 25px;
+  min-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
