@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.game-name, .game-over, .mines-count {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.game-field {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.cell {
+    background-color: gray;
+}
+
+.cell-mine {
+    background-color: red;
+}
+
+.opened-cell {
+    background-color: green;
+}
